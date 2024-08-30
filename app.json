@@ -23,6 +23,12 @@
         {
           "locationWhenInUsePermission": "Show current location on map."
         }
+      ],
+      [
+        "expo-font",
+        {
+          "fonts": ["./assets/fonts/OdinRounded.otf"]
+        }
       ]
     ],
     "experiments": {
