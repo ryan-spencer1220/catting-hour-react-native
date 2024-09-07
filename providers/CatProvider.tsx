@@ -4,6 +4,10 @@ interface Cat {
   id: number;
   lat: number;
   long: number;
+  name: string;
+  type: string;
+  personality: string;
+  last_seen: string;
 }
 
 interface CatContextType {
@@ -15,9 +19,6 @@ const CatContext = createContext<CatContextType | undefined>(undefined);
 
 export default function CatProvider({ children }: PropsWithChildren) {
   const [selectedCat, setSelectedCat] = useState<Cat | undefined>();
-
-  console.log('Selected: ', selectedCat);
-
   return (
     <CatContext.Provider value={{ selectedCat, setSelectedCat }}>{children}</CatContext.Provider>
   );

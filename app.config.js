@@ -1,3 +1,4 @@
+//app.config.js is used instead of config.json to allow .env variables
 import 'dotenv/config';
 
 export default ({ config }) => ({

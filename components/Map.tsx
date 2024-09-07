@@ -1,11 +1,11 @@
 import Mapbox, { Camera, LocationPuck, MapView } from '@rnmapbox/maps';
-import { useState } from 'react';
 import CatMarker from './CatMarker';
+import { useTheme } from '~/providers/ThemeProvider';
 
 Mapbox.setAccessToken(process.env.EXPO_PUBLIC_MAPBOX_KEY || '');
 
 const Map = () => {
-  const [darkMode, setDarkMode] = useState<boolean>(false);
+  const { darkMode } = useTheme();
 
   return (
     <MapView

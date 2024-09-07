@@ -1,17 +1,137 @@
 [
-  { "id": 1, "long": -122.6765, "lat": 45.5231 },
-  { "id": 2, "long": -122.69, "lat": 45.53 },
-  { "id": 3, "long": -122.65, "lat": 45.515 },
-  { "id": 4, "long": -122.64, "lat": 45.535 },
-  { "id": 5, "long": -122.67, "lat": 45.54 },
-  { "id": 6, "long": -122.71, "lat": 45.51 },
-  { "id": 7, "long": -122.68, "lat": 45.52 },
-  { "id": 8, "long": -122.66, "lat": 45.55 },
-  { "id": 9, "long": -122.675, "lat": 45.505 },
-  { "id": 10, "long": -122.7, "lat": 45.525 },
-  { "id": 11, "long": -122.685, "lat": 45.545 },
-  { "id": 12, "long": -122.695, "lat": 45.515 },
-  { "id": 13, "long": -122.655, "lat": 45.53 },
-  { "id": 14, "long": -122.675, "lat": 45.56 },
-  { "id": 15, "long": -122.685, "lat": 45.495 }
+  {
+    "id": 1,
+    "long": -122.6765,
+    "lat": 45.5231,
+    "name": "Whiskers",
+    "type": "Tuxedo Cat",
+    "personality": "Curious",
+    "last_seen": "2024-08-25"
+  },
+  {
+    "id": 2,
+    "long": -122.69,
+    "lat": 45.53,
+    "name": "Shadow",
+    "type": "Black Cat",
+    "personality": "Mischievous",
+    "last_seen": "2024-08-24"
+  },
+  {
+    "id": 3,
+    "long": -122.65,
+    "lat": 45.515,
+    "name": "Mittens",
+    "type": "Gray White Cat",
+    "personality": "Playful",
+    "last_seen": "2024-08-22"
+  },
+  {
+    "id": 4,
+    "long": -122.64,
+    "lat": 45.535,
+    "name": "Ginger",
+    "type": "Orange/White Cat",
+    "personality": "Friendly",
+    "last_seen": "2024-08-21"
+  },
+  {
+    "id": 5,
+    "long": -122.67,
+    "lat": 45.54,
+    "name": "Coco",
+    "type": "Brown Cat",
+    "personality": "Shy",
+    "last_seen": "2024-08-20"
+  },
+  {
+    "id": 6,
+    "long": -122.71,
+    "lat": 45.51,
+    "name": "Sasha",
+    "type": "Siamese Cat",
+    "personality": "Vocal",
+    "last_seen": "2024-08-18"
+  },
+  {
+    "id": 7,
+    "long": -122.68,
+    "lat": 45.52,
+    "name": "Bella",
+    "type": "Calico Cat",
+    "personality": "Independent",
+    "last_seen": "2024-08-17"
+  },
+  {
+    "id": 8,
+    "long": -122.66,
+    "lat": 45.55,
+    "name": "Oliver",
+    "type": "Gray Cat",
+    "personality": "Calm",
+    "last_seen": "2024-08-19"
+  },
+  {
+    "id": 9,
+    "long": -122.675,
+    "lat": 45.505,
+    "name": "Simba",
+    "type": "White/Orange Cat",
+    "personality": "Energetic",
+    "last_seen": "2024-08-23"
+  },
+  {
+    "id": 10,
+    "long": -122.7,
+    "lat": 45.525,
+    "name": "Charlie",
+    "type": "Tuxedo Cat",
+    "personality": "Affectionate",
+    "last_seen": "2024-08-26"
+  },
+  {
+    "id": 11,
+    "long": -122.685,
+    "lat": 45.545,
+    "name": "Luna",
+    "type": "White Cat",
+    "personality": "Inquisitive",
+    "last_seen": "2024-08-21"
+  },
+  {
+    "id": 12,
+    "long": -122.695,
+    "lat": 45.515,
+    "name": "Tiger",
+    "type": "Brown Cat",
+    "personality": "Brave",
+    "last_seen": "2024-08-27"
+  },
+  {
+    "id": 13,
+    "long": -122.655,
+    "lat": 45.53,
+    "name": "Milo",
+    "type": "Gray White Cat",
+    "personality": "Sociable",
+    "last_seen": "2024-08-22"
+  },
+  {
+    "id": 14,
+    "long": -122.675,
+    "lat": 45.56,
+    "name": "Nala",
+    "type": "Calico Cat",
+    "personality": "Adventurous",
+    "last_seen": "2024-08-28"
+  },
+  {
+    "id": 15,
+    "long": -122.685,
+    "lat": 45.495,
+    "name": "Oreo",
+    "type": "Black Cat",
+    "personality": "Mellow",
+    "last_seen": "2024-08-29"
+  }
 ]

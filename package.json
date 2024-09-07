@@ -33,7 +33,8 @@
     "react-native-screens": "3.31.1",
     "react-native-svg": "^15.6.0",
     "react-native-web": "~0.19.10",
-    "expo-font": "~12.0.9"
+    "expo-font": "~12.0.9",
+    "@gorhom/bottom-sheet": "^4"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
