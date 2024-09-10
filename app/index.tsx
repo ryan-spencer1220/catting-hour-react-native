@@ -1,14 +1,5 @@
-import { Stack } from 'expo-router';
-import Map from '~/components/Map';
-import { Text } from 'react-native';
-import SelectedCatSheet from '~/components/SelectedCatSheet';
+import { Redirect } from 'expo-router';
 
-export default function Home() {
-  return (
-    <>
-      <Stack.Screen />
-      <Map />
-      <SelectedCatSheet />
-    </>
-  );
+export default function RootScreen() {
+  return <Redirect href="/(home)/" />;
 }
